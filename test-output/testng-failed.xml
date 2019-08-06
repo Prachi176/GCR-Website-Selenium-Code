@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free GCR Application Test Automation Test Suite]">
+  <test name="Free GCR Application Test cases(failed)">
+    <classes>
+      <class name="com.gcr.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyCatagariesProductsTest"/>
+          <include name="verifyFirstUsername"/>
+        </methods>
+      </class> <!-- com.gcr.qa.testcases.HomePageTest -->
+      <class name="com.gcr.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.gcr.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free GCR Application Test cases(failed) -->
+</suite> <!-- Failed suite [Free GCR Application Test Automation Test Suite] -->
